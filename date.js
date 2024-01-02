@@ -37,5 +37,5 @@ function valiDate(year, month, day) {
     }
   }
   
-//console.log(valiDate(2024, 2, 29)); // true
+console.log(valiDate(2024, 2, 29)); // true
   
