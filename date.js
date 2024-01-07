@@ -36,10 +36,3 @@ function valiDate(year, month, day) {
       return false;
     }
   }
-  
-console.log(valiDate(2024, 2, 29)); // true
-console.log(valiDate(2025, 2, 29)); // false
-console.log(valiDate(0, 2, 2)); // false
-console.log(valiDate(-0, 2, 2)); // false
-  console.log(valiDate(-5, 2, 2)); // false
-  
