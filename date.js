@@ -36,3 +36,7 @@ function valiDate(year, month, day) {
       return false;
     }
   }
+
+console.log(valiDate(2020, 2, 29)); // true
+console.log(valiDate(2020, 2, 30)); // false
+console.log(valiDate(2020, 4, 31)); // false
