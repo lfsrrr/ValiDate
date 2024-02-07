@@ -8,6 +8,18 @@
 <body>
     <h1>Date Validation</h1>
     <input type="date">
-    <input type="button">
+    <input type="submit">
 </body>
 </html>
+
+<script>
+    function doSomething() {
+        alert('Date submitted!');
+        return false;
+    }
+    </script>
+    
+    <form onsubmit="return doSomething();" class="my-form">
+        <input type="submit" value="Submit">
+    </form>
+    
